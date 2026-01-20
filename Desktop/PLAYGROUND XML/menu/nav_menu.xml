@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_acerca_de"
+            android:title="Acerca de la App" />
+    </group>
+
+    <item android:title="Juegos">
+        <menu>
+            <item
+                android:id="@+id/nav_compartir"
+                android:title="Compartir App" />
+
+            <item
+                android:id="@+id/nav_juegomazo"
+                android:title="Juego de Mazo" />
+
+            <item
+                android:id="@+id/nav_gato"
+                android:title="Gato"/>
+
+            <item
+                android:id="@+id/nav_memorama"
+                android:title="Memorama" />
+
+            <item
+                android:id="@+id/nav_ahorcado"
+                android:title="Ahorcado" />
+
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+</menu>

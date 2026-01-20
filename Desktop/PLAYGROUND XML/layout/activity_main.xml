@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@drawable/fondopl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="35dp"
+        android:layout_height="45dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/fontp"
+        android:text="Bienvenido a"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fontp"
+        android:text="PLAYGROUND"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:text="Un pasaje a la diversión instantánea"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_pill"
+        android:hint="Correo electrónico"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#88000000"
+        android:imeOptions="actionDone" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etContrasena"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_pill"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textColorHint="#88000000"
+        android:imeOptions="actionDone" />
+
+
+
+    <Button
+        android:id="@+id/btn_iniciar_sesion"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="Iniciar Sesion"/>
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="¿Aún no tienes una cuenta?"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn_crear_cuenta"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

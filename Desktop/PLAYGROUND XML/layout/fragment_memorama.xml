@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Memorama">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton android:id="@+id/btn1" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn2" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn3" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn4" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/btn5" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn6" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn7" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn8" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/btn9" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn10" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn11" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn12" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/btn13" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn14" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn15" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageButton android:id="@+id/btn16" android:src="@drawable/smile" android:layout_width="70dp" android:layout_height="70dp"/>
+    </LinearLayout>
+
+    <!-- Botón reiniciar -->
+    <Button
+        android:id="@+id/btnreinicio"
+        android:text="Reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

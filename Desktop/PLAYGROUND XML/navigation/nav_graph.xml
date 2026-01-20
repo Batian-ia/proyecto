@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/memorama"
+        android:name="com.example.playground.Memorama"
+        android:label="fragment_memorama"
+        tools:layout="@layout/fragment_memorama"/>
+
+    <fragment
+        android:id="@+id/gato"
+        android:name="com.example.playground.Gato"
+        android:label="fragment_gato"
+        tools:layout="@layout/fragment_gato"/>
+
+    <fragment
+        android:id="@+id/mazo"
+        android:name="com.example.playground.Mazo"
+        android:label="fragment_mazo"
+        tools:layout="@layout/fragment_mazo"/>
+
+    <fragment
+        android:id="@+id/acercade"
+        android:name="com.example.playground.AcercaDe"
+        android:label="fragment_acerca_de"
+        tools:layout="@layout/fragment_acerca_de"/>
+
+    <fragment
+        android:id="@+id/ahorcado"
+        android:name="com.example.playground.Ahorcado"
+        android:label="fragment_ahorcado"
+        tools:layout="@layout/fragment_ahorcado"/>
+
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.playground.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio">
+
+        <action
+            android:id="@+id/action_inicio_to_acerca_de"
+            app:destination="@+id/acercade"/>
+
+        <action
+            android:id="@+id/action_inicio_to_memorama"
+            app:destination="@+id/memorama"/>
+
+        <action
+            android:id="@+id/action_inicio_to_gato"
+            app:destination="@+id/gato"/>
+
+        <action
+            android:id="@+id/action_inicio_to_mazo"
+            app:destination="@+id/mazo"/>
+
+        <action
+            android:id="@+id/action_inicio_to_ahorcado"
+            app:destination="@+id/ahorcado"/>
+
+    </fragment>
+</navigation>
